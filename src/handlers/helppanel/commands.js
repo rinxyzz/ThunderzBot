@@ -211,7 +211,7 @@ module.exports = async (client) => {
 
                         new Discord.MessageButton()
                             .setLabel("Invite")
-                            .setURL("https://discord.com/oauth2/authorize?&client_id=960193514656919652&scope=applications.commands+bot&permissions=8")
+                            .setURL("https://discord.com/oauth2/authorize?&client_id=1053354368683999292&scope=applications.commands+bot&permissions=8")
                             .setStyle("LINK"),
 
                         new Discord.MessageButton()
@@ -255,7 +255,7 @@ module.exports = async (client) => {
 
                 client.embed({
                     title: `❓・Help panel`,
-                    desc: `View all command categories in the bot here! \n\n[Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/960193514656919652/vote) `,
+                    desc: `View all command categories in the bot here! \n\n[Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/9601939514656919652/vote) `,
                     image: "https://cdn.discordapp.com/attachments/843487478881976381/874694194474668052/Bot_banner_invite.jpg",
                     fields: fields.slice(0, 24),
                     components: [row2, row],
@@ -270,7 +270,7 @@ module.exports = async (client) => {
                             if (page == 1) {
                                 client.embed({
                                     title: `❓・Help panel`,
-                                    desc: `View all command categories in the bot here! \n\n[Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/960193514656919652/vote)`,
+                                    desc: `View all command categories in the bot here! \n\n[Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/1053354368683999292/vote)`,
                                     fields: fields.slice(25, 49),
                                     components: [row2, row],
                                     type: 'update'
@@ -283,7 +283,7 @@ module.exports = async (client) => {
                             if (page == 2) {
                                 client.embed({
                                     title: `❓・Help panel`,
-                                    desc: `View all command categories in the bot here! \n\n[Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/960193514656919652/vote)`,
+                                    desc: `View all command categories in the bot here! \n\n[Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/1053354368683999292/vote)`,
                                     fields: fields.slice(0, 24),
                                     components: [row2, row],
                                     type: 'update'

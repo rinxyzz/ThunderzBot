@@ -64,7 +64,7 @@ module.exports = {
                 },
                 {
                     name: `<:to_space:1012038751729491968> ┆ Links`,
-                    value: `[Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/960193514656919652/vote)`
+                    value: `[Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/1053354368683999292/vote)`
                 },
             ],
             components: [row],
