@@ -334,12 +334,12 @@ module.exports = async (client, message) => {
     client
       .embed(
         {
-          title: "Hi, i'm Bot",
+          title: "Hi, i'm Thunderz",
           desc: `Use with commands via Discord ${client.emotes.normal.slash} commands`,
           fields: [
            {
                 name: "📢┆Alert!",
-                value: 'After more than 1 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/w8FBRVBrbX)',
+                value: 'After more than 3 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/w8FBRVBrbX)',
                 inline: false,
             },
             {
@@ -412,18 +412,18 @@ module.exports = async (client, message) => {
 
       new Discord.MessageButton()
         .setLabel("Support server")
-        .setURL("https://discord.gg/w8FBRVBrbX")
+        .setURL("https://rinzxx.ga/servers/")
         .setStyle("LINK")
     );
 
     client.embed(
       {
-        title: "👋・Hi, i'm Bot",
+        title: "👋・Hi, i'm Thunderz",
         desc: `Bot is now completely in ${client.emotes.normal.slash} commands. The current message commands have expired! Try our new improved commands and make your server better with Bot!`,
         fields: [
            {
                 name: "📢┇Alert!",
-                value: 'After more than 1 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/w8FBRVBrbX)',
+                value: 'After more than 3 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/w8FBRVBrbX)',
                 inline: false,
             },
             {
