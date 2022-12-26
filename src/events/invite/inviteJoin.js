@@ -47,7 +47,7 @@ module.exports = async (client, member, invite, inviter) => {
 
                     client.embed({
                         title: `👋・Welcome`,
-                        desc: `Welcome New Members! | ${member.user.tag}** has been joined`
+                        desc: `Welcome New Members! | **${member.user.tag}** has been joined`
                     }, channel).catch(() => { })
                 }
             })
