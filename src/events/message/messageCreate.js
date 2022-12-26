@@ -321,13 +321,13 @@ module.exports = async (client, message) => {
       new Discord.MessageButton()
         .setLabel("Invite")
         .setURL(
-          "https://discord.com/oauth2/authorize?&client_id=798144456528363550&scope=applications.commands+bot&permissions=8"
+          "https://discord.com/api/oauth2/authorize?client_id=1053354368683999292&permissions=8&scope=bot%20applications.commands"
         )
         .setStyle("LINK"),
 
       new Discord.MessageButton()
         .setLabel("Support server")
-        .setURL("https://discord.gg/56FZySQaY7")
+        .setURL("https://discord.gg/w8FBRVBrbX")
         .setStyle("LINK")
     );
 
@@ -339,7 +339,7 @@ module.exports = async (client, message) => {
           fields: [
            {
                 name: "📢┆Alert!",
-                value: 'After more than 1 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/techpoint)',
+                value: 'After more than 1 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/w8FBRVBrbX)',
                 inline: false,
             },
             {
@@ -406,13 +406,13 @@ module.exports = async (client, message) => {
       new Discord.MessageButton()
         .setLabel("Invite")
         .setURL(
-          "https://discord.com/oauth2/authorize?&client_id=798144456528363550&scope=applications.commands+bot&permissions=8"
+          "https://discord.com/api/oauth2/authorize?client_id=1053354368683999292&permissions=8&scope=bot%20applications.commands"
         )
         .setStyle("LINK"),
 
       new Discord.MessageButton()
         .setLabel("Support server")
-        .setURL("https://discord.gg/56FZySQaY7")
+        .setURL("https://discord.gg/w8FBRVBrbX")
         .setStyle("LINK")
     );
 
@@ -423,7 +423,7 @@ module.exports = async (client, message) => {
         fields: [
            {
                 name: "📢┇Alert!",
-                value: 'After more than 1 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/techpoint)',
+                value: 'After more than 1 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/w8FBRVBrbX)',
                 inline: false,
             },
             {

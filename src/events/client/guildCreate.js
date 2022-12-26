@@ -66,7 +66,7 @@ module.exports = async (client, guild) => {
             image: "https://cdn.discordapp.com/attachments/843487478881976381/874694194474668052/Bot_banner_invite.jpg",
             fields: [{
                 name: "📢┆Alert!",
-                value: 'After more than 1 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/techpoint)',
+                value: 'After more than 1 year we decided to stop Bot on April 15th, for more information go to [this server](https://discord.gg/w8FBRVBrbX)',
                 inline: false,
             },
             {
@@ -76,7 +76,7 @@ module.exports = async (client, guild) => {
             },
             {
                 name: "☎️┆I need help what now?",
-                value: `You can DM <@784649693363306518> for support or joining the [[Support server]](${client.config.discord.serverInvite})`,
+                value: `You can DM <@886971572668219392> for support or joining the [[Support server]](${client.config.discord.serverInvite})`,
                 inline: false,
             },
             {

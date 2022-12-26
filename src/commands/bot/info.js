@@ -19,10 +19,10 @@ module.exports = async (client, interaction, args) => {
             const duration = moment.duration(client.uptime).format("\`D\` [days], \`H\` [hrs], \`m\` [mins], \`s\` [secs]");
 
             client.embed({
-                title: `<:uo_info:1015553303242883112>・Bot information`,
+                title: `ℹ️・Bot information`,
                 thumbnail: client.user.avatarURL({ size: 1024 }),
                 fields: [{
-                    name: "<:uo_info:1015553303242883112> ┆ Information",
+                    name: "ℹ️┆ Information",
                     value: `Bot is a bot with which you can run your entire server! With no less than 400+ commands, we have a large bot with many options to improve your server!`,
                     inline: false,
                 },
@@ -43,12 +43,12 @@ module.exports = async (client, interaction, args) => {
                 },
                 {
                     name: "<:blue_crown:1012017210992115812> ┆ Bot owner",
-                    value: `<@!784649693363306518> `,
+                    value: `<@!886971572668219392> `,
                     inline: true,
                 },
                 {
                     name: "<:blue_hammers:1012018248163786763> ┆ Bot developer",
-                    value: `<@!784649693363306518>`,
+                    value: `<@!886971572668219392>`,
                     inline: true,
                 },
                 {
@@ -118,7 +118,7 @@ module.exports = async (client, interaction, args) => {
                 },
                 {
                     name: "<:plane:1012017388440531015> ┆ Links",
-                    value: `Add me: [[HERE]](${client.config.discord.botInvite}) \nSupport server: [[HERE]](${client.config.discord.serverInvite})`,
+                    value: `Add me: [[https://discord.com/api/oauth2/authorize?client_id=1053354368683999292&permissions=8&scope=bot%20applications.commands]](${client.config.discord.botInvite}) \nSupport server: [[https://discord.gg/w8FBRVBrbX]](${client.config.discord.serverInvite})`,
                     inline: false,
                 }],
                 type: 'editreply'

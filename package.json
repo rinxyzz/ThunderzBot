@@ -23,7 +23,7 @@
     "Suggestions",
     "Server Stats"
   ],
-  "author": "CorwinDev",
+  "author": "iMiku",
   "license": "ISC",
   "dependencies": {
     "@discordjs/builders": "^0.11.0",

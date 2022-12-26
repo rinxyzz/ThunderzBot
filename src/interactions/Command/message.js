@@ -178,29 +178,29 @@ module.exports = {
                                 }
                             ],
                             footer: {
-                                text: `© TechPoint - 2022`,
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                text: `© Thunderz - 2022`,
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053371726492352572/882d41a061ec3dc50aafa1253b8a4f00.jpg"
                             }
                         }, interaction.channel)
                     })
                 }
 
-                if (message == "helpdesk") {
+                if (message == "thunderz") {
                     client.simpleEmbed({
-                        image: `https://media.discordapp.net/attachments/937337957419999272/938725908687233034/techpoint_channel_banner_helpdesk.jpg?width=812&height=221`
+                        image: `https://media.discordapp.net/attachments/937337957419999272/938725908687233034/techphhoint_channel_banner_helpdesk.jpg?width=812&height=221`
                     }, interaction.channel).then(() => {
                         client.embed({
-                            title: `🎫・Helpdesk`,
+                            title: `🎫・Thunderz`,
                             author: {
-                                name: "TechPoint",
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                name: "Thunderz",
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             },
-                            thumbnail: "https://media.discordapp.net/attachments/937337957419999272/937463192265846784/techpoint_logo_Bot.jpg?width=812&height=812",
+                            thumbnail: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg",
                             desc: `What could be more fun than working at the best bot/server? We regularly have spots for new positions that you can apply for \n\nBut... what can you expect?`,
                             fields: [
                                 {
                                     name: `❓┆I have a question!`,
-                                    value: `We advise you to ask your question in <#937486956697370674> first. Here there are often already team members or other people who can help you. If it still doesn't work, create a ticket.`,
+                                    value: `We advise you to ask your question in <#1053373415207223437> first. Here there are often already team members or other people who can help you. If it still doesn't work, create a ticket.`,
                                 },
                                 {
                                     name: `📄┆Ticket Rules`,
@@ -212,8 +212,8 @@ module.exports = {
                                 },
                             ],
                             footer: {
-                                text: `© TechPoint - 2022`,
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                text: `© Thunderz - 2022`,
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             }
                         }, interaction.channel)
                     })
@@ -222,33 +222,33 @@ module.exports = {
 
                 if (message == "network") {
                     client.simpleEmbed({
-                        image: `https://media.discordapp.net/attachments/937337957419999272/938725909387698216/techpoint_channel_banner_network.jpg?width=812&height=221`
+                        image: `https://media.discordapp.net/attachments/937337957419999272/938725909387698216/techpoigfnt_channel_banngger_network.jpg?width=812&height=221`
                     }, interaction.channel).then(() => {
                         client.embed({
                             title: `🏢・Network`,
-                            thumbnail: "https://media.discordapp.net/attachments/937337957419999272/937463192265846784/techpoint_logo_Bot.jpg?width=812&height=812",
+                            thumbnail: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg",
                             author: {
-                                name: "TechPoint",
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                name: "Thunderz",
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             },
-                            desc: `Techpoint Network is a network that consists of 3 servers. Each server has its own function. One is for tech/coding/crypto and the other for support. We also have 1 extra server for ban appeals, read all information below`,
+                            desc: `iMiku Network is a network that consists of 3 servers.`,
                             fields: [
                                 {
-                                    name: `💻┇TechPoint`,
-                                    value: `This is a server that mainly focused on everything that revolves around tech. For example, think of encryption, crypt or all new gadgets. Meet new people or learn more about tech yourself!. You can join this server by clicking [this](https://discord.gg/bEJhVa6Ttv) link`,
+                                    name: `💻┇ Thunderz`,
+                                    value: `This is a server that mainly focused on everything that revolves around tech. For example, think of encryption, crypt or all new gadgets. Meet new people or learn more about tech yourself!. You can join this server by clicking [this](https://discord.gg/w8FBRVBrbX) link`,
                                 },
                                 {
                                     name: `🤖┇Bot Support`,
-                                    value: `This is the server you are currently on. All information about this server can be found in. You can get the link from this server to click on [this](https://discord.gg/GqhD6RNbzs) link`,
+                                    value: `This is the server you are currently on. All information about this server can be found in. You can get the link from this server to click on [this](https://discord.gg/w8FBRVBrbX) link`,
                                 },
                                 {
-                                    name: `🔨┇TechPoint Ban Appeal`,
-                                    value: `This server is for the people who are banned from a server or from the bots. You can create a ticket here to request an unban and to participate in the servers again or to be able to use the bots again. You can join this server by clicking [this](https://discord.gg/q9jZrDk9n6) link`,
+                                    name: `🔨┇Thunderz Ban Appeal`,
+                                    value: `This server is for the people who are banned from a server or from the bots. You can create a ticket here to request an unban and to participate in the servers again or to be able to use the bots again. You can join this server by clicking [this](https://discord.gg/w8FBRVBrbX) link`,
                                 },
                             ],
                             footer: {
-                                text: `© TechPoint - 2022`,
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                text: `© Thunderz - 2022`,
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             }
                         }, interaction.channel)
                     })
@@ -257,15 +257,15 @@ module.exports = {
 
                 if (message == "botinfo") {
                     client.simpleEmbed({
-                        image: `https://media.discordapp.net/attachments/937337957419999272/938725909668691978/techpoint_channel_banner_Bot.jpg?width=812&height=221`
+                        image: `https://media.discordapp.net/attachments/937337957419999272/938725909668691978/techpoint_channel_bannger_Bot.jpg?width=812&height=221`
                     }, interaction.channel).then(() => {
                         client.embed({
                             title: `ℹ・Bot(s) Information`,
                             author: {
-                                name: "TechPoint",
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                name: "Thunderz",
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             },
-                            thumbnail: "https://media.discordapp.net/attachments/937337957419999272/937463192265846784/techpoint_logo_Bot.jpg?width=812&height=812",
+                            thumbnail: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg",
                             desc: `Outside of a community we also maintain 2 public bots. These bots are all made to make your server better!`,
                             fields: [
                                 {
@@ -278,16 +278,16 @@ module.exports = {
                                 },
                                 {
                                     name: `📨┆How do I invite the bots?`,
-                                    value: `You can invite the bots by doing \`/invite\` or by clicking on the links below\n\n**Bot Invite** - [Invite Here](https://discord.com/oauth2/authorize?&client_id=798144456528363550&scope=applications.commands+bot&permissions=8)\n**Bot 2 Invite** - [Invite Here](${client.config.discord.botInvite})`,
+                                    value: `You can invite the bots by doing \`/invite\` or by clicking on the links below\n\n**Bot Invite** - [Invite Here](https://discord.com/api/oauth2/authorize?client_id=1053354368683999292&permissions=8&scope=bot%20applications.commands)\n**Bot 2 Invite** - [Invite Here](${client.config.discord.botInvite})`,
                                 },
                                 {
                                     name: `🎫┆How do I get help when needed?`,
-                                    value: `You can ask your questions in the general chat or for further information you can take a look in <#897213893624102965>.`,
+                                    value: `You can ask your questions in the general chat or for further information you can take a look in <#1053373415207223437>.`,
                                 },
                             ],
                             footer: {
-                                text: `© TechPoint - 2022`,
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                text: `© Thunderz - 2022`,
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             }
                         }, interaction.channel)
                     })
@@ -380,15 +380,15 @@ module.exports = {
 
                 if (message == "beta") {
                     client.simpleEmbed({
-                        image: `https://media.discordapp.net/attachments/937337957419999272/938725907097604116/techpoint_channel_banner_beta.jpg?width=813&height=221`
+                        image: `https://media.discordapp.net/attachments/937337957419999272/938725907097604116/techpoint_channel_bannger_beta.jpg?width=813&height=221`
                     }, interaction.channel).then(() => {
                         client.embed({
                             title: `🐞・Béta`,
                             author: {
-                                name: "TechPoint",
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                name: "Thunderz",
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             },
-                            thumbnail: "https://media.discordapp.net/attachments/937337957419999272/937463192265846784/techpoint_logo_Bot.jpg?width=812&height=812",
+                            thumbnail: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg",
                             desc: `The Bot Beta program is a program for new updates that still contains some bugs. Because of this program there are fewer bugs at the release! Everything happens via another bot so that the current bot users are not bothered by the beta testing`,
                             fields: [
                                 {
@@ -401,12 +401,12 @@ module.exports = {
                                 },
                                 {
                                     name: `💼┆I want to apply!`,
-                                    value: `Nice that you want to participate in Bot! We ask you to create a ticket in us <#897213893624102965> We will send a form and possibly additional information \n\n**Pay attention!** When the update is out you will be removed from our program!`,
+                                    value: `Nice that you want to participate in Bot! We ask you to create a ticket in us <#1053373415207223437> We will send a form and possibly additional information \n\n**Pay attention!** When the update is out you will be removed from our program!`,
                                 }
                             ],
                             footer: {
-                                text: `© TechPoint - 2022`,
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                text: `© Thunderz - 2022`,
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             }
                         }, interaction.channel)
                     })
@@ -415,15 +415,15 @@ module.exports = {
 
                 if (message == "credits") {
                     client.simpleEmbed({
-                        image: `https://media.discordapp.net/attachments/937337957419999272/938725907659644928/techpoint_channel_banner_credits.png?width=813&height=221`
+                        image: `https://media.discordapp.net/attachments/937337957419999272/938725907659644928/techpoint_channel_banner_crhedits.png?width=813&height=221`
                     }, interaction.channel).then(() => {
                         client.embed({
                             title: `${client.user.username}・Dcredits`,
                             author: {
-                                name: "TechPoint",
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                name: "Thunderz",
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             },
-                            thumbnail: "https://media.discordapp.net/attachments/937337957419999272/937463192265846784/techpoint_logo_Bot.jpg?width=812&height=812",
+                            thumbnail: "https://media.discordapp.net/attachments/937337957419999272/937463192265846784/techvpoint_logo_Bot.jpg?width=812&height=812",
                             fields: [
                                 {
                                     name: `ℹ️┆What are Dcredits?`,
@@ -443,12 +443,12 @@ module.exports = {
                                 },
                                 {
                                     name: `🐞┆I have discovered a bug is the system`,
-                                    value: `If something went wrong with your credits? Open a ticket in our <#897213893624102965> and we will solve this as soon as possible!`,
+                                    value: `If something went wrong with your credits? Open a ticket in our <#1053373415207223437> and we will solve this as soon as possible!`,
                                 }
                             ],
                             footer: {
-                                text: `© TechPoint - 2022`,
-                                iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
+                                text: `© Thunderz - 2022`,
+                                iconURL: "https://media.discordapp.net/attachments/1037909644829528165/1053373592978599996/20221216_235838.jpg"
                             }
                         }, interaction.channel)
                     })

@@ -6,11 +6,11 @@ module.exports = {
     },
 
     discord: {
-        id: "815210279834878003",
-        prefix: 'd!',
-        footer: `© Bot 2021 - ${new Date().getFullYear()}`, 
-        botInvite: "https://discord.com/oauth2/authorize?&client_id=QQQQQQQQQQQQ&scope=applications.commands+bot&permissions=8",
-        serverInvite: "https://discord.gg/QQQQQQQQ",
+        id: "1053354368683999292",
+        prefix: '!',
+        footer: `© Thunderz - ${new Date().getFullYear()}`, 
+        botInvite: "https://discord.com/api/oauth2/authorize?client_id=1053354368683999292&permissions=8&scope=bot%20applications.commands",
+        serverInvite: "https://discord.gg/w8FBRVBrbX",
     },
 
     wordList: `Airplane

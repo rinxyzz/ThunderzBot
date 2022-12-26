@@ -4,13 +4,13 @@ const chalk = require('chalk');
 module.exports = async (client) => {
   const activities = [
         { name: `${client.guilds.cache.size} Servers`, type: 2 }, // LISTENING
-        { name: `${client.channels.cache.size} Channels`, type: 0 }, // PLAYING
-        { name: `${client.users.cache.size} Users`, type: 3 }, // WATCHING
+    //    { name: `${client.channels.cache.size} Channels`, type: 0 }, // PLAYING
+    //    { name: `${client.users.cache.size} Users`, type: 3 }, // WATCHING
     ];
     const status = [
-        'online',
-        'dnd',
-        'idle'
+        'online'
+        //'dnd',
+        //'idle'
     ];
     let i = 0;
     setInterval(() => {

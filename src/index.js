@@ -1,7 +1,12 @@
 const Discord = require('discord.js');
 const chalk = require('chalk');
 require('dotenv').config();
-
+const express = require('express')
+const app = express()
+app.get('/', function (req, res) {
+res.send('Hello World')
+})
+app.listen(3000)
 const webhook = require("./config/webhooks.json");
 const config = require("./config/bot.js");
 
@@ -27,7 +32,7 @@ const manager = new Discord.ShardingManager('./src/bot.js', {
 console.clear();
 console.log(chalk.blue(chalk.bold(`System`)), (chalk.white(`>>`)), (chalk.green(`Starting up`)), (chalk.white(`...`)))
 console.log(`\u001b[0m`)
-console.log(chalk.red(`© Uo | 2021 - ${new Date().getFullYear()}`))
+console.log(chalk.red(`© Thunderz | 2021 - ${new Date().getFullYear()}`))
 console.log(chalk.red(`All rights reserved`))
 console.log(`\u001b[0m`)
 console.log(`\u001b[0m`)
