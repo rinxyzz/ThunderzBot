@@ -123,7 +123,7 @@ process.on('unhandledRejection', error => {
         .addField(`Stack error`, `\`\`\`${error.stack}\`\`\``)
         .setColor(client.config.colors.normal)
     consoleLogs.send({
-        username: 'Bot Logs',
+        username: 'Thunderz Logs',
         embeds: [embed],
     }).catch(() => {
         console.log(error)
@@ -136,7 +136,7 @@ process.on('warning', warn => {
         .addField(`Warn`, `\`\`\`${warn}\`\`\``)
         .setColor(client.config.colors.normal)
     warnLogs.send({
-        username: 'Bot Logs',
+        username: 'Thunderz Logs',
         embeds: [embed],
     }).catch(( ) => { })
 });
@@ -148,7 +148,7 @@ client.on('shardError', error => {
         .addField(`Stack error`, `\`\`\`${error.stack}\`\`\``)
         .setColor(client.config.colors.normal)
     consoleLogs.send({
-        username: 'Bot Logs',
+        username: 'Thunderz Logs',
         embeds: [embed],
     });
 });

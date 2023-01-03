@@ -47,7 +47,7 @@ manager.on('shardCreate', shard => {
         .addField(`📃┆State`, `Starting up...`, true)
         .setColor(config.colors.normal)
     startLogs.send({
-        username: 'Bot Logs',
+        username: 'Thunderz Logs',
         embeds: [embed],
     });
 
@@ -61,7 +61,7 @@ manager.on('shardCreate', shard => {
             .addField("Exit code", `\`${process.exitCode}\``)
             .setColor(config.colors.normal)
         shardLogs.send({
-            username: 'Bot Logs',
+            username: 'Thunderz Logs',
             embeds: [embed]
         });
 
@@ -72,7 +72,7 @@ manager.on('shardCreate', shard => {
                 .addField("Exit code", `\`${process.exitCode}\``)
                 .setColor(config.colors.normal)
             shardLogs.send({
-                username: 'Bot Logs',
+                username: 'Thunderz Logs',
                 embeds: [embed]
             });
         }
@@ -84,7 +84,7 @@ manager.on('shardCreate', shard => {
             .setDescription("Dumping socket close event...")
             .setColor(config.colors.normal)
         shardLogs.send({
-            username: 'Bot Logs',
+            username: 'Thunderz Logs',
             embeds: [embed],
         });
     });
@@ -94,7 +94,7 @@ manager.on('shardCreate', shard => {
             .setTitle(`🚨・Reconnecting shard ${shard.id + 1}/${manager.totalShards}`)
             .setColor(config.colors.normal)
         shardLogs.send({
-            username: 'Bot Logs',
+            username: 'Thunderz Logs',
             embeds: [embed],
         });
     });

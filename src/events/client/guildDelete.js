@@ -63,7 +63,7 @@ module.exports = async (client, guild) => {
                 .setThumbnail("https://cdn.discordapp.com/attachments/843487478881976381/852419424895631370/BotSadEmote.png")
                 .setColor(client.config.colors.normal)
             kickLogs.send({
-                username: 'Bot Logs',
+                username: 'Thunderz Logs',
                 avatarURL: client.user.avatarURL(),
                 embeds: [embed],
             });

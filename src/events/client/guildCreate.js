@@ -33,7 +33,7 @@ module.exports = async (client, guild) => {
                     .setThumbnail("https://cdn.discordapp.com/attachments/843487478881976381/852419422392156210/BotPartyEmote.png")
                     .setColor(client.config.colors.normal)
                 webhookClient.send({
-                    username: 'Bot Logs',
+                    username: 'Thunderz Logs',
                     avatarURL: client.user.avatarURL(),
                     embeds: [embed],
                 });
