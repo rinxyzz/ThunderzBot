@@ -26,7 +26,7 @@ module.exports = async (client, interaction, args) => {
             },
             {
                 name: "Result",
-                value: `**${user2}** and **${user2}** match **${result}%**`,
+                value: `**${user1}** and **${user2}** match **${result}%**`,
                 inline: false,
             },
         ],
