@@ -1,47 +1,47 @@
 {
     "normal": {
-        "error": "❌",
-        "check": "✅",
-        "music": "<a:IconDiscoveryMusic:951665483407564830> ",
-        "volume": "<:uo_voice_channel:1015566886303440906>",
-        "ball": "<:uo_8ball:1015566988027908097>",
-        "christmas": "<:uo_Christmas:1015567779602108438>",
-        "heart": "<:uo_heart:1015567981306187806>",
-        "paper": "<:uo_paper:1015550831199789146>",
-        "scissors": "<:uo_scissor:1015550986112217119>",
-        "stone": "<:uo_rock:1015551152663826562>",
-        "pong": "<:uo_ping_pong:1015551332414930994>",
-        "birthday": "<:uo_birthday:1015551515718586418>",
-        "clock": "<:uo_clock:1015551740281622538>",
-        "gift": "<:uo_gift:1015928197344407592>",
-        "medal": "<:uo_medal:1015551930392657931>",
-        "party": "<:uo_party:1015552073405841458> ",
-        "info": "<:uo_info:1015553303242883112>",
-        "arrowDown": "<:uo_arrow_down:1015552360690483302>",
-        "arrowUp": "<:uo_arrow_up:1015552528483622922>",
-        "dcredits": "<a:IconCreditCard:951665483118162001>",
-        "tv": "<:uo_tv:1015552829714341959>",
-        "slash": "<:uoBot_icon_slash:1015552999332003850>"
+        "error": "<:thunderz_icon_cancel:1062240627120689212>",
+        "check": "<:thunderz_icon_checkmark:1062240622385311775>",
+        "music": "<:thunderz_icon_music:1062240619927453776>",
+        "volume": "<:thunderz_icon_speaker:1062240633152094228>",
+        "ball": "<:thunderz_icon_ball:1062240615737331752>",
+        "christmas": "<:thunderz_icon_christmas:1062240611580788856>",
+        "heart": "<:thunderz_icon_filledheart:1062240608997081209>",
+        "paper": "<:thunderz_icon_papers:1062240605176078346>",
+        "scissors": "<:thunderz_icon_scissors:1062240601027919962>",
+        "stone": "<:thunderz_icon_rock:1062240598796542003>",
+        "pong": "<:thunderz_icon_pingpong:1062240594795167754>",
+        "birthday": "<:thunderz_icon_birthday:1062240589996896267>",
+        "clock": "<:thunderz_icon_clock:1062240586138124308>",
+        "gift": "<:thunderz_icon_gift:1062240582384242788>",
+        "medal": "<:thunderz_icon_medals:1062240580077371432>",
+        "party": "<:thunderz_icon_party:1062240569079894057> ",
+        "info": "<:thunderz_icon_information:1062240565124677683>",
+        "arrowDown": "<:thunderz_icon_down:1062240561207189534>",
+        "arrowUp": "<:thunderz_icon_up:1062240559151980564>",
+        "dcredits": "<:thunderz_icon_pocket:1062240553284157551>",
+        "tv": "<:thunderz_icon_tv:1062240549144367134>",
+        "slash": "<:thunderz_icon_slash:1062240545923153981>"
     },
 
     "Bot": {
-        "add": "<:uo_add:1015553154533838879>",
-        "info": "<:uo_info:1015553303242883112>",
-        "min": "<:uo_min:1015553484810100837>"
+        "add": "<:thunderz_icon_add:1062240716362883123>",
+        "info": "<:thunderz_icon_information:1062240565124677683>",
+        "min": "<:thunderz_icon_min:1062240714068611082>"
     },
 
     "economy": {
-        "pocket": "  ",
-        "bank": "<:up_bank:1015562211554504744>",
-        "coins": "<:uo_dcoin:1015563002591842314>"
+        "pocket": "<:thunderz_icon_pocket:1062240778140782722>",
+        "bank": "<:thunderz_icon_bank:1062240769223696514>",
+        "coins": "<:thunderz_icon_coins:1062240773984231564>"
     },
 
     "music": {
-        "next": "<:uo_Next:1015563821315788840>",
-        "pause": "<:uo_Pause:1015563923753283624>",
-        "previous": "<:uo_Previous:1015564012982894632>",
-        "stop": "<:uo_Stop:1015564101751164980>",
-        "play": "<:uo_Play:1015564218415730749>"
+        "next": "<:thunderz_icon_next:1062240851692097547>",
+        "pause": "<:thunderz_icon_pause:1062240847334211634>",
+        "previous": "<:thunderz_icon_back:1062240843148312578>",
+        "stop": "<:thunderz_icon_stop:1062240838811385896>",
+        "play": "<:thunderz_icon_play:1062240836445806674>"
     },
 
     "badges": {
