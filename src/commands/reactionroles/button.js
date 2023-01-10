@@ -27,7 +27,7 @@ module.exports = async (client, interaction, args) => {
 
         client.embed({
             title: `${upper}・Roles`,
-            desc: `_____ \n\nChoose your roles by pressing the button! \n\n${mapped}`,
+            desc: `**Choose your roles by pressing the button!** \n\n${mapped}`,
             components: sendComponents
         }, channel).then((msg) => {
             data.Message = msg.id;

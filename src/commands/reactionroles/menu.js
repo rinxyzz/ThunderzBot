@@ -49,7 +49,7 @@ module.exports = async (client, interaction, args) => {
 
         client.embed({
             title: `${upper}・Roles`,
-            desc: `_____ \n\nChoose your roles in the menu! \n\n${map}`,
+            desc: `**Choose your roles in the menu!** \n\n${map}`,
             components: [row]
         }, channel).then((msg) => {
             data.Message = msg.id;
