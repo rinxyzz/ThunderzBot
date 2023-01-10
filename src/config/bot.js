@@ -8,8 +8,8 @@ module.exports = {
     discord: {
         id: "1053354368683999292",
         prefix: '!',
-        footer: `© Thunderz - ${new Date().getFullYear()}`, 
-        botInvite: "https://discord.com/api/oauth2/authorize?client_id=1053354368683999292&permissions=8&scope=bot%20applications.commands",
+      //  footer: `© Thunderz - ${new Date().getFullYear()}`, 
+        botInvite: "https://discord.com/api/oauth2/authorize?client_id=1053354368683999292&permissions=242920836929&scope=applications.commands%20bot",
         serverInvite: "https://discord.gg/w8FBRVBrbX",
     },
 

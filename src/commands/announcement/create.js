@@ -1,11 +1,12 @@
 const Discord = require('discord.js');
 
 module.exports = async (client, interaction, args) => {
+    const title = interaction.options.getString('title');
     const message = interaction.options.getString('message');
     const channel = interaction.options.getChannel('channel');
 
     client.embed({ 
-        title: `📢・Announcement!`, 
+        title: title, 
         desc: message 
     }, channel);
 
