@@ -3,7 +3,8 @@ const chalk = require('chalk');
 
 module.exports = async (client) => {
   const activities = [
-        { name: `${client.guilds.cache.size} Servers`, type: 2 }, // LISTENING
+		{ name: `Thunderz | /help`, type: 0 },
+      //  { name: `${client.guilds.cache.size} Servers`, type: 2 }, // LISTENING
     //    { name: `${client.channels.cache.size} Channels`, type: 0 }, // PLAYING
     //    { name: `${client.users.cache.size} Users`, type: 3 }, // WATCHING
     ];
