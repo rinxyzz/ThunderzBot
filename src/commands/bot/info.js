@@ -118,7 +118,7 @@ module.exports = async (client, interaction, args) => {
                 },
                 {
                     name: "<:plane:1012017388440531015> ┆ Links",
-                    value: `Add me: [[https://discord.com/api/oauth2/authorize?client_id=1053354368683999292&permissions=8&scope=bot%20applications.commands]](${client.config.discord.botInvite}) \nSupport server: [[https://discord.gg/w8FBRVBrbX]](${client.config.discord.serverInvite})`,
+                    value: `Add me: [Invite Me](${client.config.discord.botInvite}) \nSupport server: [Servers](${client.config.discord.serverInvite})`,
                     inline: false,
                 }],
                 type: 'editreply'

@@ -23,11 +23,11 @@ module.exports = async (client, interaction, args) => {
                     },
                     {
                         name: `❓┆What can I do here?`,
-                        value: `- Meet new people! \n- Play many fun games! \n- Discover the seasons! \n- Participate in events! \nAnd…. Last but not least, choose your own roles at <#847867992044994561>!`,
+                        value: `- Meet new people! \n- Play many fun games! \n- Discover the seasons! \n- Participate in events! \nAnd…. Last but not least, choose your own roles at <#1045378113372180552>!`,
                     },
                     {
                         name: `🎫┆How do I get help when needed?`,
-                        value: `You can make a ticket in <#820308164322656327>! We are happy to help you with your questions here and offer support in your server!`,
+                        value: `You can make a ticket in <#1047558228654956645>! We are happy to help you with your questions here and offer support in your server!`,
                     },
                     {
                         name: `⚙️┆I want to help Bot Hangout to improve!`,
@@ -38,7 +38,7 @@ module.exports = async (client, interaction, args) => {
         })
     }
 
-    if (message == "rules") {
+    if (message == "Rules") {
         client.simpleEmbed({
             image: `https://cdn.discordapp.com/attachments/843487478881976381/874742702393131038/Bot_banner_rules.jpg`
         }, interaction.channel).then(async () => {
@@ -100,7 +100,7 @@ module.exports = async (client, interaction, args) => {
         })
     }
 
-    if (message == "applications") {
+    if (message == "Applications") {
         client.simpleEmbed({
             image: `https://cdn.discordapp.com/attachments/843487478881976381/874742737415581786/Bot_banner_applications.jpg`
         }, interaction.channel).then(() => {
@@ -138,7 +138,7 @@ module.exports = async (client, interaction, args) => {
         })
     }
 
-    if (message == "boosterperks") {
+    if (message == "Booster perks") {
         client.simpleEmbed({
             image: `https://media.discordapp.net/attachments/843487478881976381/881396544195149874/Bot_banner_boosters.jpg`
         }, interaction.channel).then(() => {
@@ -196,7 +196,7 @@ module.exports = async (client, interaction, args) => {
         })
     }
 
-    if (message == "links") {
+    if (message == "Links") {
         client.simpleEmbed({
             image: `https://media.discordapp.net/attachments/843487478881976381/881396544195149874/Bot_banner_boosters.jpg`
         }, interaction.channel).then(() => {
@@ -214,7 +214,7 @@ module.exports = async (client, interaction, args) => {
         })
     }
 
-    if (message == "rewards") {
+    if (message == "Rewards") {
         client.embed({
             title: `😜・Role Rewards`,
             thumbnail: client.user.avatarURL({ size: 1024 }),
@@ -236,7 +236,7 @@ module.exports = async (client, interaction, args) => {
         }, interaction.channel)
     }
 
-    if (message == "ourbots") {
+    if (message == "Ourbots") {
         client.simpleEmbed({
             image: `https://cdn.discordapp.com/attachments/843487478881976381/874742741224022016/Bot_banner_bot_info.jpg`
         }, interaction.channel).then(() => {
