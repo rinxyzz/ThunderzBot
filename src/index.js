@@ -23,7 +23,6 @@ const shardLogs = new Discord.WebhookClient({
 const manager = new Discord.ShardingManager('./src/bot.js', {
     totalShards: 2,
     token: process.env.DISCORD_TOKEN,
-    timeout: -1,
     respawn: true
 });
 
@@ -102,6 +101,6 @@ manager.on('shardCreate', shard => {
 });
 
 
-manager.spawn({ amount: 'auto', delay: 5500, timeout: 30000 }).catch(e => console.log(e))
+manager.spawn();
 
  
