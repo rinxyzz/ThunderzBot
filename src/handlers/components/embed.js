@@ -37,7 +37,7 @@ module.exports = (client) => {
     }, interaction) {
         embed.setTitle(`${client.emotes.normal.error}・Error!`)
         embed.setDescription(`Something went wrong!`)
-        embed.addField("💬┇Error comment", `\`\`\`${error}\`\`\``)
+        embed.addFields("💬┇Error comment", `\`\`\`${error}\`\`\``)
         embed.setColor(client.config.colors.error)
 
         return client.sendEmbed({
@@ -58,7 +58,7 @@ module.exports = (client) => {
     }, interaction) {
         embed.setTitle(`${client.emotes.normal.error}・Error!`)
         embed.setDescription(`You did not provide the correct arguments`)
-        embed.addField("💬┇Required arguments", `\`\`\`${usage}\`\`\``)
+        embed.addFields("💬┇Required arguments", `\`\`\`${usage}\`\`\``)
         embed.setColor(client.config.colors.error)
 
         return client.sendEmbed({
@@ -80,7 +80,7 @@ module.exports = (client) => {
     }, interaction) {
         embed.setTitle(`${client.emotes.normal.error}・Error!`)
         embed.setDescription(`You don't have the right permissions`)
-        embed.addField("🔑┇Required Permission", `\`\`\`${perms}\`\`\``)
+        embed.addFields("🔑┇Required Permission", `\`\`\`${perms}\`\`\``)
         embed.setColor(client.config.colors.error)
 
         return client.sendEmbed({
@@ -102,7 +102,7 @@ module.exports = (client) => {
     }, interaction) {
         embed.setTitle(`${client.emotes.normal.error}・Error!`)
         embed.setDescription(`I don't have the right permissions`)
-        embed.addField("🔑┇Required Permission", `\`\`\`${perms}\`\`\``)
+        embed.addFields("🔑┇Required Permission", `\`\`\`${perms}\`\`\``)
         embed.setColor(client.config.colors.error)
 
         return client.sendEmbed({
@@ -124,7 +124,7 @@ module.exports = (client) => {
     }, interaction) {
         embed.setTitle(`${client.emotes.normal.error}・Error!`)
         embed.setDescription(`You've already done this once`)
-        embed.addField("⏰┇Try again on", `<t:${time}:f>`)
+        embed.addFields("⏰┇Try again on", `<t:${time}:f>`)
         embed.setColor(client.config.colors.error)
 
         return client.sendEmbed({
@@ -152,7 +152,7 @@ module.exports = (client) => {
         embed.setDescription(`${text}`)
         embed.setColor(client.config.colors.succes)
 
-        if (fields) embed.addFields(fields);
+        if (fields) embed.addFieldss(fields);
 
         return client.sendEmbed({
             embeds: [embed],
@@ -190,7 +190,7 @@ module.exports = (client) => {
         else if (desc) embed.setDescription(desc);
         if (image) embed.setImage(image);
         if (thumbnail) embed.setThumbnail(thumbnail);
-        if (fields) embed.addFields(fields);
+        if (fields) embed.addFieldss(fields);
         if (author) embed.setAuthor(author);
         if (url) embed.setURL(url);
         if (footer) embed.setFooter(footer);
@@ -228,7 +228,7 @@ module.exports = (client) => {
         else if (desc) embed.setDescription(desc);
         if (image) embed.setImage(image);
         if (thumbnail) embed.setThumbnail(thumbnail);
-        if (fields) embed.addFields(fields);
+        if (fields) embed.addFieldss(fields);
         if (author) embed.setAuthor(author[0], author[1]);
         if (url) embed.setURL(url);
         if (color) embed.setColor(color);
