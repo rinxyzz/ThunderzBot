@@ -47,7 +47,7 @@ manager.on('shardCreate', shard => {
         .addField(`📃┆State`, `Starting up...`, true)
         .setColor(config.colors.normal)
     startLogs.send({
-        username: 'Thunderz Logs',
+        username: 'Thunderz Logss',
         embeds: [embed],
     });
 
