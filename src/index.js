@@ -4,7 +4,7 @@ require('dotenv').config();
 const express = require('express')
 const app = express()
 app.get('/', function (req, res) {
-res.send('Hello World')
+res.send('Hello World Thunderz Is Activated!')
 })
 app.listen(3000)
 const webhook = require("./config/webhooks.json");
@@ -23,6 +23,7 @@ const shardLogs = new Discord.WebhookClient({
 const manager = new Discord.ShardingManager('./src/bot.js', {
     totalShards: 2,
     token: process.env.DISCORD_TOKEN,
+    timeout: -1,
     respawn: true
 });
 
@@ -101,6 +102,6 @@ manager.on('shardCreate', shard => {
 });
 
 
-manager.spawn();
+manager.spawn({ amount: 'auto', delay: 5500, timeout: 30000 }).catch(e => console.log(e))
 
  
